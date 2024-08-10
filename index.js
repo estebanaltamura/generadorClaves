@@ -6,7 +6,7 @@ const path = require('path');
 const symmetricKey = crypto.randomBytes(32).toString('hex');
 
 // Ruta donde se guardará la clave
-const filePath = '/home/ssm-user/projects/login-server/privateKey.txt';
+const filePath = '/home/ubuntu/projects/login-server/privateKey.txt';
 
 // Crear directorios si no existen
 const dirPath = path.dirname(filePath);
